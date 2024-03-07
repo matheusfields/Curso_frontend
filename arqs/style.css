@@ -1,0 +1,18 @@
+.w-20 {
+    width: 20px;
+}
+.h-20 {
+    height: 20px;
+}
+.circulo {
+    border-radius: 100%;
+}
+.p-10 {
+    padding: 10px;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-red {
+    background-color: red;
+}

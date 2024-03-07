@@ -1,0 +1,33 @@
+.quadrado{
+    display: flex;
+    background-color: aquamarine;
+    border: 5px;
+    border-color: black;
+    position: relative;
+}
+
+.fontes{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.color-midnightblue{
+    color: midnightblue;
+}
+
+.width{
+    width: 80%;
+}
+
+.border{
+    border: dotted;
+    border-radius: 10%;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.margin{
+    margin: 15px;
+}

@@ -1,4 +1,22 @@
 body{
     background-color:rgb(163, 171, 173);
-    color: aliceblue;
+    color: rgb(16, 39, 59);
+    font-family: sans-serif;
+    width: 700px;
+    margin: auto;
+    background-image: url(imagens/bg.jpg);
+    background-size: 100% 100%;
+}
+
+.img-html{
+    float:right;
+}
+
+.img-css{
+    float: left;
+}
+
+p{
+    line-height: 1;
+    text-align: justify;
 }

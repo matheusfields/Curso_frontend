@@ -1,39 +1,113 @@
 body{
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
 }
-
 .hero{
     background-image: url(../imagens/bg-2.jpg);
-    height: 500px;
+    padding: 1px;
+    height: 400px;
+    width: 100%;
+    margin: auto;
     background-size: cover;
     background-position: right center;
+    border-radius: 10px;
+    border: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.7);
 }
-
 .hero-content{
     margin: 100px auto 0;
     width: 80%;
     text-align: center;
     color: white;
 }
-
 .hero-content h1{
     font-size: 56px;
-    text-shadow: 3px 3px rgb(0, 0, 0);
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.7);
     text-transform: uppercase;
+    margin-bottom: 0;
 }
-
 .hero-content p{
     background-color: rgba(0,0,0, 0.7);
     font-size: 18px;
     display: inline-block;
     padding: 10px;
+    margin-top: 10px;
     border-bottom: 2px solid;
     border-radius: 10px;
 }
-
+.hero-content h1:hover{
+    font-size: 72px;
+}
 .hero nav ul{
-    
+    margin: 20px 50px 0 0;
+    text-align: right;
+}
+.hero nav li{
+    display: inline-block;
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    padding: 3px;
+    margin: 4px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    box-shadow: 0 3px rgba(255, 255, 255, 0.7);
+}
+.hero nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    display: block;
+    letter-spacing: 1px;
+}
+.hero nav li:hover{
+    background-color: rgb(32, 38, 114);
+    border: 2px solid rgb(32, 38, 114);
+    border-radius: 3px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.container{
+    background-color: gray;
+    padding: 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.container article{
+    background-color: white;
+    padding: 5px 5px 32px 5px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+.container h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: gray;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.container p{
+    margin-top: 14px;
+    padding: 4px;
+    margin-bottom: 16px;
+}
+
+a.btn{
+    margin: 6px;
+    padding: 12px;
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.7);
+        
+}

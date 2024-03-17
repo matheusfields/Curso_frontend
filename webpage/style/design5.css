@@ -38,11 +38,11 @@ body{
 .hero-content h1:hover{
     font-size: 72px;
 }
-.hero nav ul{
+.hero ul{
     margin: 20px 50px 0 0;
     text-align: right;
 }
-.hero nav li{
+.hero li{
     display: inline-block;
     list-style-type: none;
     background-color: rgb(0, 0, 0);
@@ -69,7 +69,7 @@ body{
     padding-left: 10px;
 }
 
-main{
+.container{
     width: 90%;
     margin: auto;
 }
@@ -83,7 +83,7 @@ main{
 
 .container article{
     background-color: white;
-    padding: 5px 5px 32px 5px;
+    padding: 5px 5px 10px 5px;
     margin-bottom: 16px;
     border-radius: 5px;
 }
@@ -103,11 +103,20 @@ main{
     margin-bottom: 16px;
 }
 
-a.btn{
+.btn{
+    display: block;
     margin: 6px;
     padding: 12px;
     background-color: gray;
     border-radius: 5px;
     box-shadow: 0 3px rgba(0, 0, 0, 0.7);
-        
+    margin-left: auto;
+    width: fit-content;
+}
+
+.footer_end{
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    margin: 20px 0 0 0;
 }

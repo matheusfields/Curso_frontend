@@ -1,0 +1,30 @@
+.container{
+    border:2px solid black;
+    padding: 16px;
+    width: 3;
+    margin: 8px;
+    height: 300px;
+}
+
+.fit-content .item{
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: fit-content;
+}
+.min-content .item{
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: min-content;
+}
+.max-content .item{
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: max-content;
+}
+
+.overflow-hidden{
+    overflow: auto;
+}

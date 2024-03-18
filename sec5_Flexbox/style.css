@@ -1,19 +1,36 @@
 .flexbox{
     display: flex;
-    border: 3px solid black;
+    border-style:solid;
     height: 250px;
-    /* padding: 10px; */
-    flex-flow: row nowrap;
-    justify-content: end;
-    /* flex-wrap: nowwrap; */
-    /* flex-direction: row-reverse; */
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.flexbox div{
+.flexbox .div1{
+    width: 100px;
+    height: 100px;
     display: flex;
-    border: 2px solid rgb(255, 153, 0);
-    width: 36px;
-    height: 18px;
-    /* height: 50px;
-    margin-bottom: 15px; */
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-weight: 900;
+    font-size: 32px;
 }
+
+.flexbox .div2{
+    width: 100px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 50px;
+    transform: rotate(-90deg) translate(25px);
+    font-weight: bold;
+    font-size: 32px;
+}
+

@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(250, 238, 224);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 100px auto 25px auto;
+    font-family: monospace;
+    color: aliceblue;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.7);
+    background-color: cadetblue;
+    border-radius: 5px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.7);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto 10px auto;
+    align-content: center;
+    max-width: 1200px;
+    gap: 32px;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-basis: 120px;
+    justify-content: flex-end;
+    height: 320px;
+    width: 320px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.7);
+    background-color: white;
+    border-radius: 5px;
+    background-image: url("/imagens/thumb02.jpg");
+    background-repeat: no-repeat;
+    background-size: 320px 160px;
+    background-position-y: top;
+}
+
+.foto img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.nome{
+    font-weight: bold;
+    color: gray;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.email{
+    font-family: Courier;
+    color: gray;
+}
+
+.link-decoration{
+    text-decoration: none;
+}
+
+.icons{
+    display: flex;
+    gap: 36px;
+    margin-bottom: 24px;
+    opacity: 0;
+}
+
+.card:hover{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-basis: 120px;
+    justify-content: flex-end;
+    height: 360px;
+    width: 360px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.7);
+    background-color: white;
+    border-radius: 5px;
+    background-image: url("/imagens/thumb02.jpg");
+    background-repeat: no-repeat;
+    background-size: 360px 200px;
+    background-position-y: top;
+}
+
+.card:hover .icons{
+    display: flex;
+    gap: 36px;
+    margin-bottom: 24px;
+    opacity: 0.5;
+}
+
+/*
+.card:hover{
+    width: auto;
+    height: 80px;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    margin: 4px;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.9);
+    background-color: rgb(235, 173, 232);
+}
+
+.card:hover .foto img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    flex-shrink: 0;
+}
+ */
